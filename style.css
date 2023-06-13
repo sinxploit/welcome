@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(90deg, black, rgb(27, 27, 27) 50%, rgb(27, 27, 27) 50%, rgb(0, 0, 0));
+  }
+
+
+
+.chat{
+    color: rgb(105, 105, 104);
+    font-size: 10px;
+    font-family: myFonts;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+
+
+
+.title {
+    color: white;
+    letter-spacing: 5px;
+    font-family: myFont;
+    font-size: 650%;
+    padding-left: 10%;
+    
+
+}
+
+
+.about {
+    color: white;
+    font-family: myFont;
+    word-spacing: 5px;
+    font-weight: lighter;
+    font-size: 100%;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin: 0;
+}
+
+@font-face{
+    font-family: myFont;
+    
+    src:url(./fonts/NeueMachina-Light.otf)
+}
+
+@font-face {
+    font-family: myFonts;
+    src:url(./fonts/OldComputerSt-rGM7.ttf)
+}
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  a{
+    display: block;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }
+  
+  a:hover{
+    letter-spacing: 15px;
+  }
